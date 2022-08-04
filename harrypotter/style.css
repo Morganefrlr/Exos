@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background-color: rgb(33, 47, 77);
+    font-family: sans-serif;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    height: 28px;
+    margin: 10px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+h1 {
+    margin: 10px;
+    color: white;
+}
+.liste-personnages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: 100%;
+    margin: 10px;
+    
+}
+
+.perso {
+    background-color:white;
+    display: flex;
+    border-radius: 5px;
+}
+.photo {
+    width: 50%;
+    display: flex;
+    padding: 0 10%;
+}
+.photo img {
+    width: 70px;
+    height: 100px;
+    margin: 10px;    
+}
+.infos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+
+}
+.info2 {
+    display: flex;
+    
+
+}
+.nom {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: start;
+}
+.info2 p {
+    
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.maison {
+    width: fit-content;
+    margin: 0;
+    
+}
+
+.house {
+    margin: 0 0 0 10px;
+}

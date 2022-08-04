@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 254, 193);
+}
+
+a {
+    font-size: 100px;
+    text-decoration: none;
+    margin: 30px;
+  }
